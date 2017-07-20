@@ -10,6 +10,10 @@ public class Setting {
 		return array;
 	}
 	
+	public static void setArray(int[] ary) {
+		array = ary;
+	}
+	
 	public static void createArray() {
 		
 		Random rand = new Random();
@@ -21,7 +25,7 @@ public class Setting {
 			array[i] = rand.nextInt(100);
 		}
 	}
-
+	
 	public static int getCaseNum() {
 		return caseNum;
 	}
